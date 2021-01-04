@@ -12,6 +12,12 @@
 /.next/
 /out/
 
+# cache
+.eslintcache
+.prettierignore
+.prettierrc.json
+package-lock.json
+
 # production
 /build
 
