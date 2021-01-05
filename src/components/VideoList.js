@@ -7,7 +7,7 @@ const VideoList = ({ videos }) => {
 	// should be descriptive of what is happening
 
 	const renderedList = videos.map((video) => {
-		return <VideoItem key={video.id.videoId} />;
+		return <VideoItem video={video} />;
 	});
 
 	return <div>{renderedList}</div>;
